@@ -93,14 +93,14 @@ const Llama = ( function( ) {
               reject( { status: req.status, message: Error( message )} );
           }
         };
-    
+        
         // Handle network errors
         req.onerror = function(  ) {
           reject( Error( "No es posible conectarse con el servidor, verifique su conexión a internet" ) );
         };
         
         // Make the request
-        req.send( );
+        req.send();
       } );
     }
   
