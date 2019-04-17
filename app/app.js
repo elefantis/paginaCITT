@@ -14,4 +14,4 @@ const pages = {
 }
 
 Llama.init( pages );
-Llama.deafultPage( "home" );
+Llama.setDefault( "home" );
