@@ -1,28 +1,63 @@
-html 
+/*Css ordenado alfabeticamente*/
+.about
 {
-  width: 100%;
-  height: 100%;
+  margin: 10px;
+  display: flex;
 }
 
-video, img
+.aboutParrafo 
 {
-  max-width: 100%;
-  max-height: 100%;
+  text-align: justify;
+  padding: 10px;
+  width: 50%;
+  float: left;
+}
+
+.aboutVideo
+{
+  padding: 10px;
+  width: 50%;
+  text-align: right;
 }
 
 body
 {
   background-image: url("/img/background.jpg");
-  background-repeat: no-repeat;
   background-attachment: fixed;    
   background-size: 100%;
 }
 
-main
+.footer
+{
+
+}
+
+html 
 {
   width: 100%;
-  margin: 15px;
-  padding: 10px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header
+{
+  width: 25%;
+}
+
+.logo
+{
+  width: 100%;;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+main
+{
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  margin: 5px;
 }
 
 .menu ul{
@@ -56,15 +91,8 @@ main
   background-color: #6394EE;
 }
 
-.logo
+video, img
 {
-  width: 100%;;
-  background-color: white;
-  border-radius: 10px;
-  padding: 4px;
-}
-
-.header
-{
-  width: 25%;
+  max-width: 100%;
+  max-height: 100%;
 }
