@@ -20,11 +20,43 @@
   text-align: right;
 }
 
+.Capitan
+{
+  margin: 5px;
+  width: 20%;
+  min-width: 15%;
+}
+
+.Capitan img
+{
+  border-radius: 100%;
+}
+
+.Capitan h3
+{
+  text-align: center;
+}
+
+.Capitanes
+{
+  width: 100%;
+}
+
+.Coordinador
+{
+  width: 100%;
+}
+
 body
 {
   background-image: url("/img/background.jpg");
   background-attachment: fixed;    
   background-size: 100%;
+}
+
+.director
+{
+
 }
 
 .footer
@@ -91,8 +123,20 @@ main
   background-color: #6394EE;
 }
 
+.Nuevos
+{
+  display: flex;
+  flex: wrap;
+}
+
 video, img
 {
   max-width: 100%;
   max-height: 100%;
+}
+
+.Viejos
+{
+  display: flex;
+  flex: wrap;
 }
