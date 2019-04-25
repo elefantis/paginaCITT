@@ -22,9 +22,13 @@
 
 .Capitan
 {
-  margin: 5px;
-  width: 20%;
-  min-width: 15%;
+  margin: 15px;
+  width: 10%;
+  min-width: 5%;
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 5px;
+  
 }
 
 .Capitan img
@@ -44,7 +48,9 @@
 
 .Coordinador
 {
-  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 body
@@ -54,14 +60,11 @@ body
   background-size: 100%;
 }
 
-.director
+.Director
 {
-
-}
-
-.footer
-{
-
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 html 
@@ -125,8 +128,18 @@ main
 
 .Nuevos
 {
+  display: -webkit-flex;
   display: flex;
-  flex: wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.TituloEquipo
+{
+  text-align: center;
 }
 
 video, img
@@ -137,6 +150,10 @@ video, img
 
 .Viejos
 {
+  display: -webkit-flex;
   display: flex;
-  flex: wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
 }
