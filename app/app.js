@@ -4,6 +4,7 @@ const pages = {
     },
     "feed": {
         template: "../app/templates/feed.html",
+        controller: FeedController
     },
     "team": {
         template: "../app/templates/team.html",

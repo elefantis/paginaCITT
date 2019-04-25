@@ -15,16 +15,21 @@ const Llama = ( function( ) {
         return output;
     }
 
-    const post = function( url, params ) {
+    const post = function( url, params, encodingType ) {
+      const FILES = 1, DEFAULT = 0;  
+      const Encondings = [
+          "application/x-www-form-urlencoded",
+          "multipart/form-data",
+          "text/plain"
+        ];
+        let _encondingIndex = 0;
+        if( encodingType ) _encondingIndex = encodingType;
         // Return a new promise.
         return new Promise( function( resolve, reject ) {
           // Do the usual XHR stuff
           var req = new XMLHttpRequest(  );
           req.open( 'POST', url, true );
     
-          //Send the proper header information along with the request
-          req.setRequestHeader( "Content-type", "application/x-www-form-urlencoded" );
-
           // The autorization
           try{
             if( localStorage.getItem( "token" ) ){
@@ -40,14 +45,20 @@ const Llama = ( function( ) {
             // so check the status
             if ( req.status == 200 ) {
               // Resolve the promise with the response text
-              resolve( req.response );
+              let message  = "";
+                try {
+                    message = JSON.parse( req.response );
+                } catch (error) {
+                    message = req.response;
+                }
+              resolve( message );
             }
             else {
                 // Otherwise reject with the status text
                 // which will hopefully be a meaningful error
                 let message  = "";
                 try {
-                    message = JSON.parse( req.response ).message;
+                    message = JSON.parse( req.response );
                 } catch (error) {
                     message = req.response;
                 }
@@ -60,10 +71,20 @@ const Llama = ( function( ) {
             reject( Error( "No es posible conectarse con el servidor, verifique su conexión a internet" ) );
           };
           
-          // Parse the data 
-          params = paramsParse( params );
-          // Make the request
-          req.send( params );
+          if( _encondingIndex == FILES ) {
+            var formData = new FormData();
+            for( let i in params ) {
+              formData.append( i, params[ i ] );
+            }
+            req.send( formData );
+          } else {
+            // Parse the data 
+            params = paramsParse( params );
+            //Send the proper header information along with the request
+            req.setRequestHeader('Content-type', Encondings[ DEFAULT ]);
+            // Make the request
+            req.send( params );
+          }
         } );
     }
 
@@ -79,7 +100,13 @@ const Llama = ( function( ) {
           // so check the status
           if ( req.status == 200 ) {
             // Resolve the promise with the response text
-            resolve( req.response );
+            let message  = "";
+                try {
+                    message = JSON.parse( req.response );
+                } catch (error) {
+                    message = req.response;
+                }
+              resolve( message );
           }
           else {
               // Otherwise reject with the status text
@@ -93,14 +120,14 @@ const Llama = ( function( ) {
               reject( { status: req.status, message: Error( message )} );
           }
         };
-        
+    
         // Handle network errors
         req.onerror = function(  ) {
           reject( Error( "No es posible conectarse con el servidor, verifique su conexión a internet" ) );
         };
         
         // Make the request
-        req.send();
+        req.send( );
       } );
     }
   
@@ -116,9 +143,8 @@ Llama.changePage = function( page ) {
     Llama.get( Llama.pages[ page ].template ).then( ( result ) => {
       // Change the URL
       parent.location.hash = page;
-      
       main.innerHTML =  result; 
-
+      window.scrollTo(0, 0);
       if( Llama.pages[ page ].controller ) {
         Llama.pages[ page ].controller(  );
       }
