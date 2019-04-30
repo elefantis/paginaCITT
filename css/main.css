@@ -31,9 +31,10 @@
   
 }
 
-.Capitan img
+.CapitanFoto
 {
   border-radius: 100%;
+  width: 200px;
 }
 
 .Capitan h3
@@ -88,7 +89,7 @@ html
   padding: 4px;
 }
 
-main
+.main
 {
   background-color: #f3f3f3;
   border-radius: 5px;

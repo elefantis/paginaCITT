@@ -1,6 +1,7 @@
 const pages = {
     "home": {
         template: "../app/templates/subjects.html",
+        controller: SubjectsController,
     },
     "feed": {
         template: "../app/templates/feed.html",
@@ -8,9 +9,11 @@ const pages = {
     },
     "team": {
         template: "../app/templates/team.html",
+        controller: TeamController,
     },
     "about": {
         template: "../app/templates/about.html",
+        controller: AboutController,
     }
 };
 
