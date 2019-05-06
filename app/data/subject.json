@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Web mobile",
+        "place": "Sala: 200",
+        "day": "Miércoles",
+        "hour": "05:30 - 07:00"
+    },
+    {
+        "id": 1,
+        "name": "Videojuego novato",
+        "place": "Sala: 210",
+        "day": "Jueves",
+        "hour": "05:30 - 07:00"
+    },
+    {
+        "id": 1,
+        "name": "Videojuego espartano",
+        "place": "Sala: 210",
+        "day": "Viernes",
+        "hour": "05:30 - 07:00"
+    }
+]

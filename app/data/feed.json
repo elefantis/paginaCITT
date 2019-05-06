@@ -5,5 +5,12 @@
         "data": "lorem ipsum",
         "video": "",
         "image": ""
+    },
+    {
+        "id": 2,
+        "name": "Hackathon Duoc UC Sede Maipú",
+        "data": "Por tercer año consecutivo se realizara la hackathon donde chicos de todas las carreras formaran equipos para cumplir con un objetivo en común.",
+        "video": "",
+        "image": ""
     }
 ]
