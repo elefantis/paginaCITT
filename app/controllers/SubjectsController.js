@@ -1,6 +1,6 @@
 function SubjectsController () {
     Llama.get('../app/data/subject.json').then( ( data ) => {
-        let container = document.getElementById('workshop');
+        let container = document.getElementById('workshop-list');
 
         for(let i in data)
         {
@@ -18,6 +18,7 @@ function SubjectsController () {
             hour.innerHTML = data[i].hour;
 
             //Atributos
+            workshop.className = 'workshop';
             title.className = 'subjects-title';
             room.className = 'subjects-room';
             day.className = 'subjects-day';

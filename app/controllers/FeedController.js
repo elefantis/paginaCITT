@@ -18,6 +18,7 @@ function FeedController() {
             image.src = data[i].image;
 
             //Atributos
+            news.className = 'news';
             title.className = 'news-title';
             image.className = 'news-image';
             image.alt = data[i].name;
