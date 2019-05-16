@@ -1,0 +1,28 @@
+.galery-container{
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-img{
+  
+    margin: 10px;
+}
+
+.galery-container img{
+    
+    width: 300px;
+    min-height: 300px;
+    min-width: 300px;
+    height: 250px;
+    transition: all 1s;
+    object-fit: cover;
+}
+
+.galery-container img:hover{
+    filter:sepia(40%);
+    transition: all 1s;
+    transform: scale(1.04);
+    
+}
