@@ -31,7 +31,7 @@ function SubjectsController () {
             containerInfoImage.className = 'container-info';
             containerInfoTitle.className = 'container-info';
             infoImage.alt = 'Imagen mano sobre el teclado';
-            flipCardBack.className = 'flip-card-back';
+            flipCardBack.className = 'fflip-card-back';
             room.className = 'info-taller';
             day.className = 'info-taller';
             hour.className = 'info-taller';
