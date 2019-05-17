@@ -1,9 +1,8 @@
 function SubjectsController () {
     Llama.get('../app/data/subject.json').then( ( data ) => {
-        let container = document.getElementsByClassName('general-container');
+        let container = document.getElementById('general-container');
 
-        for(let i in data)
-        {
+        data.forEach(i => {
             //Crear elementos
             let click4Flip = document.createElement('div');
             let flipCard = document.createElement('div');
@@ -19,10 +18,10 @@ function SubjectsController () {
 
             //Agregar datos
             infoImage.src = '/img/default-taller.jpg';
-            infoTitle.innerHTML = data.name;
-            room.innerHTML = data.place;
-            day.innerHTML = data.day;
-            hour.innerHTML = data.hour;
+            infoTitle.innerHTML = i.name;
+            room.innerHTML = i.place;
+            day.innerHTML = i.day;
+            hour.innerHTML = i.hour;
 
             //Agregar atributos;
             click4Flip.className = 'click-for-flip';
@@ -41,7 +40,7 @@ function SubjectsController () {
             //Insertar elementos
             //Front
             containerInfoImage.appendChild(infoImage);
-            containerInfoTitle.appendChild(containerInfoTitle);
+            containerInfoTitle.appendChild(infoTitle);
             flipCardFront.appendChild(containerInfoImage);
             flipCardFront.appendChild(containerInfoTitle);
 
@@ -50,14 +49,14 @@ function SubjectsController () {
             flipCardBack.appendChild(day);
             flipCardBack.appendChild(hour);
 
-            //flip card
+            // flip card
             flipCard.appendChild(flipCardFront);
             flipCard.appendChild(flipCardBack);
             click4Flip.appendChild(flipCard);
 
             //Insert to container
             container.appendChild(click4Flip);
-        }
+        });
     }).catch( ( error ) => 
     {
         console.log( error );
