@@ -4,20 +4,23 @@
         "name": "Programacion web mobile",
         "place": "Sala 200",
         "day": "Miércoles",
-        "hour": "17:30 - 19:00"
+        "hour": "17:30 - 19:00",
+        "description": ""
     },
     {
         "id": 1,
-        "name": "Prototipado",
+        "name": "Prototipado de videojuegos",
         "place": "Sala 210",
         "day": "Jueves",
-        "hour": "17:30 - 19:00"
+        "hour": "17:30 - 19:00",
+        "description": ""
     },
     {
         "id": 1,
         "name": "Desarrollo de videojuegos",
         "place": "Sala 210",
         "day": "Viernes",
-        "hour": "17:30 - 19:00"
+        "hour": "17:30 - 19:00",
+        "description": ""
     }
 ]

@@ -1,61 +1,64 @@
 function SubjectsController () {
     Llama.get('../app/data/subject.json').then( ( data ) => {
+        let d = data[0];
         let container = document.getElementById('general-container');
 
-        data.forEach(i => {
-            //Crear elementos
-            let click4Flip = document.createElement('div');
+        data.forEach( d => {
+            let flipCardContainer = document.createElement('div');
             let flipCard = document.createElement('div');
             let flipCardFront = document.createElement('div');
             let containerInfoImage = document.createElement('div');
             let infoImage = document.createElement('img');
-            let containerInfoTitle = document.createElement('div');
-            let infoTitle = document.createElement('h2');
-            let flipCardBack = document.createElement('div');
-            let room = document.createElement('h3');
-            let day = document.createElement('h4');
+            let containerInfoData = document.createElement('div');
+            let title = document.createElement('h2');
+            let room = document.createElement('p');
+            let day = document.createElement('p');
             let hour = document.createElement('p');
+            let flipCardBack = document.createElement('div');
+            let descriptionTitle = document.createElement('h3');
+            let descriptionData = document.createElement('p');
 
-            //Agregar datos
             infoImage.src = '/img/default-taller.jpg';
-            infoTitle.innerHTML = i.name;
-            room.innerHTML = i.place;
-            day.innerHTML = i.day;
-            hour.innerHTML = i.hour;
+            title.innerHTML = d.name;
+            room.innerHTML = d.place;
+            day.innerHTML = d.day;
+            hour.innerHTML = d.hour;
+            descriptionTitle.innerHTML = 'Descripción: ';
+            descriptionData.innerHTML = d.description;
 
-            //Agregar atributos;
-            click4Flip.className = 'click-for-flip';
-            click4Flip.id = 'click-for-flip';
+            flipCardContainer.className = 'flip-card-container';
             flipCard.className = 'flip-card';
             flipCardFront.className = 'flip-card-front';
             containerInfoImage.className = 'container-info';
-            containerInfoTitle.className = 'container-info';
-            infoImage.alt = 'Imagen mano sobre el teclado';
-            flipCardBack.className = 'fflip-card-back';
-            room.className = 'info-taller';
-            day.className = 'info-taller';
-            hour.className = 'info-taller';
+            infoImage.alt = 'Imagen taller';
+            containerInfoData.className = 'container-info';
+            flipCardBack.className = 'flip-card-back';
+            descriptionTitle.className = 'info-taller';
+            descriptionData.className = 'info-taller';
 
-
-            //Insertar elementos
-            //Front
+            
+            //image workshop
             containerInfoImage.appendChild(infoImage);
-            containerInfoTitle.appendChild(infoTitle);
+            //Workshop data
+            containerInfoData.appendChild(title);
+            containerInfoData.appendChild(room);
+            containerInfoData.appendChild(day);
+            containerInfoData.appendChild(hour);
+            //Front card children
             flipCardFront.appendChild(containerInfoImage);
-            flipCardFront.appendChild(containerInfoTitle);
+            flipCardFront.appendChild(containerInfoData);
 
-            //back
-            flipCardBack.appendChild(room);
-            flipCardBack.appendChild(day);
-            flipCardBack.appendChild(hour);
+            //Back card children
+            flipCardBack.appendChild(descriptionTitle);
+            flipCardBack.appendChild(descriptionData);
 
-            // flip card
+            //Flip card Children
             flipCard.appendChild(flipCardFront);
             flipCard.appendChild(flipCardBack);
-            click4Flip.appendChild(flipCard);
 
-            //Insert to container
-            container.appendChild(click4Flip);
+            flipCardContainer.appendChild(flipCard);
+
+            container.appendChild(flipCardContainer);
         });
     }).catch( ( error ) => 
     {

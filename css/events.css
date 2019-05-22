@@ -1,0 +1,125 @@
+.general-container {
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.event-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5em;
+    flex-direction: column;
+    width: 90%;
+    min-height: 60%;
+    background: rgb(225, 228, 228);
+    position: relative;
+    /*whitesmoke*/
+    -webkit-box-shadow: 10px 10px 29px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 29px -18px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 29px -18px rgba(0,0,0,0.75);
+}
+.event-container:last-child {
+    margin-bottom: 20px;
+}
+.info-event {
+    padding-left: 30px;
+}
+.info-event:first-child {
+    align-self: flex-start;
+    width: 100%;
+    padding-top: 5px;
+}
+.info-event:nth-child(2) {
+    align-self: flex-start;
+    padding: 10px 30px;
+}
+.info-event:last-child {
+    align-self: flex-start;
+    padding: 10px 35px;
+}
+#decorator-title {
+    display: block;
+    width: 5em;
+    height: 6px;
+    background: rgba(0, 0, 0, .5);
+    margin-top: 5px;
+}
+.img-event {
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.info-event img,iframe {
+    width: 100%;
+      max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    object-fit: cover;
+    transition: all 1s;
+}
+.info-event img:hover {
+      filter: sepia(40%);
+  transition: all 1s;
+  transform: scale(1.04);
+}
+.info-event p {
+    word-break: break-all;
+}
+@media screen and (min-width:700px) {
+    .event-container {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 94%;
+    }
+ 
+    .info-event:first-child {
+        align-self: center;
+        justify-content: flex-start;
+        padding-bottom: 10px;
+    }
+    .info-event:nth-child(2) {
+        width: 40%;
+    }
+    .info-event:last-child {
+        width: 60%;
+        padding: 10px 20px 10px 0px;
+        font-size: 18px;
+    }
+    .info-event p {
+        text-align: left;
+    }
+}
+@media screen and (min-width:1000px) {
+    .event-container {
+        width: 85%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      
+    }
+    .info-event img,iframe {
+        min-height: 240px;
+         max-height: 260px;
+    }
+    .info-event:first-child {
+        
+        top: 0.9em;
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        font-size: 1.5em;
+        left: 38%
+    }
+    .info-event:nth-child(2) {
+        order: -1;
+        width: 40%;
+        
+        padding:35px 15px  15px 15px;
+       
+    }
+    .info-event:last-child {
+        padding: 110px 80px 10px 0px;
+        font-size: 20px;
+    }
+}
