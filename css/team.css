@@ -1,0 +1,216 @@
+.general-container {
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(../img/background-white-team.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.container-images:first-child {
+    margin-top: 30px;
+}
+
+
+.container-images .title-team {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-images .title-team h1 {
+    width: 100%;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-images:first-child .title-team h1 {
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 80px;
+}
+
+.container-images:nth-child(2) .title-team h1 {
+    width: 100%;
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.container-images:nth-child(3) .title-team h1 {
+
+
+    width: 100%;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.img-team-container {
+    margin: 1%;
+    margin-top: 0;
+    width: 60%;
+    height: 225px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 14px 21px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 14px 21px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 14px 21px -7px rgba(0, 0, 0, 0.75);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+
+.container-images:nth-child(2) .img-team-container {
+    margin-bottom: 5em;
+}
+
+.img-team {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-team-container h2 {
+
+    width: 100%;
+}
+
+
+.img-team-container img {
+    max-width: 185px;
+    max-height: 185px;
+    min-width: 185px;
+    min-height: 185px;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.8);
+    object-fit: cover;
+
+}
+
+
+@media screen and (min-width: 700px) {
+    .container-images .title-team {
+        width: 50%;
+    }
+
+    .img-team-container {
+        width: 50%;
+    }
+
+    .container-images:nth-child(3) .title-team {
+        width: 92%;
+    }
+
+    .container-images:nth-child(3) .img-team-container {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container-images .title-team {
+        width: 100%;
+        height: 50px;
+    }
+
+    .container-images:first-child {
+        align-self: flex-start;
+        align-content: flex-start;
+    }
+
+    .container-images:nth-child(2) {
+        margin-top: 2em;
+        align-content: flex-start;
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+
+    .container-images:nth-child(3) {
+        width: 100%;
+
+
+    }
+
+    .container-images:nth-child(3) .img-team-container {
+        width: 20%;
+    }
+
+
+    .container-images:first-child .title-team h1 {
+        width: 20%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 80px;
+    }
+
+    .container-images:nth-child(2) .title-team h1 {
+        width: 20%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 80px;
+    }
+
+    .container-images:nth-child(3) .title-team h1 {
+        width: 93.5%;
+    }
+
+    .container-images:last-child .title-team h1 {
+        width: 100%;
+        border-radius: 0;
+
+
+    }
+
+    .container-images .title-team h1 {
+        width: 50%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-team-container {
+        margin: 1%;
+        margin-top: 0;
+        width: 20%;
+        height: 235px;
+    }
+
+    .container-images:first-child .img-team-container {
+        margin-top: 30px
+    }
+
+    .container-images:nth-child(2) .img-team-container {
+        margin-top: 30px
+    }
+
+    .img-team-container img {
+        max-width: 180px;
+        max-height: 180px;
+        min-width: 180px;
+        min-height: 180px;
+    }
+}

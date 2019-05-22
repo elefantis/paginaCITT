@@ -14,7 +14,15 @@ const pages = {
     "about": {
         template: "../app/templates/about.html",
         controller: AboutController,
-    }
+    },
+    "gallery": {
+        template: "../app/templates/gallery.html",
+        controller: GalleryController
+    },
+    "events": {
+        template: "../app/templates/events.html",
+        controller: EventsController
+    },
 };
 
 Llama.init( pages );

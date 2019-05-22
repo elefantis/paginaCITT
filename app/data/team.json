@@ -1,0 +1,80 @@
+[
+    {
+        "nombre": "Nelson Alvarez",
+        "imagen": "/img/Equipo/Director.jpg",
+        "cargo": "Director"
+    },
+    {
+        "nombre": "Coordinador.jpg",
+        "imagen": "/img/Equipo/Coordinador.png",
+        "cargo": "Coordinador"
+    },
+    {
+
+    },
+    {
+        "nombre": "Ignacio Donoso",
+        "imagen": "/img/Equipo/CapitanIgnacio.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Bastian",
+        "imagen": "/img/Equipo/CapitanBastian.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Anais",
+        "imagen": "/img/Equipo/CapitanAnais.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Max",
+        "imagen": "/img/Equipo/CapitanMax.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Scarlet",
+        "imagen": "/img/Equipo/CapitanScarlet.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Samuel",
+        "imagen": "/img/Equipo/CapitanSamuel.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Jorge Corvalan",
+        "imagen": "/img/Equipo/CapitanJorge.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Daniela sepulveda",
+        "imagen": "/img/Equipo/CapitanDaniela.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Francisco Peñaloza",
+        "imagen": "/img/Equipo/CapitanFrancisco.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Alvaro Peñaloza",
+        "imagen": "/img/Equipo/CapitanAlvaro.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Jonathan",
+        "imagen": "/img/Equipo/CapitanJonathan.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Claudia Vasquez",
+        "imagen": "/img/Equipo/CapitanClaudia.jpg",
+        "cargo": "Capitan"
+    },
+    {
+        "nombre": "Andres Cubillos",
+        "imagen": "/img/Equipo/CapitanAndres.jpg",
+        "cargo": "Capitan"
+    }
+]
