@@ -5,7 +5,7 @@
         "cargo": "Director"
     },
     {
-        "nombre": "Coordinador.jpg",
+        "nombre": "Jean Paul Fuentes",
         "imagen": "/img/Equipo/Coordinador.png",
         "cargo": "Coordinador"
     },
@@ -28,17 +28,17 @@
         "cargo": "Capitan"
     },
     {
-        "nombre": "Max",
+        "nombre": "Maximiliano López",
         "imagen": "/img/Equipo/CapitanMax.jpg",
         "cargo": "Capitan"
     },
     {
-        "nombre": "Scarlet",
+        "nombre": "Scarlet Vallejos",
         "imagen": "/img/Equipo/CapitanScarlet.jpg",
         "cargo": "Capitan"
     },
     {
-        "nombre": "Samuel",
+        "nombre": "Samuel Peña",
         "imagen": "/img/Equipo/CapitanSamuel.jpg",
         "cargo": "Capitan"
     },
@@ -63,7 +63,7 @@
         "cargo": "Capitan"
     },
     {
-        "nombre": "Jonathan",
+        "nombre": "Jonathan Muñoz",
         "imagen": "/img/Equipo/CapitanJonathan.jpg",
         "cargo": "Capitan"
     },

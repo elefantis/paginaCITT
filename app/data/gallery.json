@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Inauguracion Citt",
+        "images": [
+            "/img/test-galery.jpg", "/img/test-galery-2.jpg", "/img/test-galery.jpg", "/img/test-galery-2.jpg"
+        ]
+    },
+    {
+        "title": "Hackathon EY",
+        "images": [
+            "/img/test-galery.jpg", "/img/test-galery-2.jpg", "/img/test-galery.jpg"
+        ]
+    }
+]

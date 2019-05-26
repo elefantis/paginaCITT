@@ -5,6 +5,7 @@
         "place": "Sala 200",
         "day": "Miércoles",
         "hour": "17:30 - 19:00",
+        "photo": "",
         "description": ""
     },
     {
@@ -13,6 +14,7 @@
         "place": "Sala 210",
         "day": "Jueves",
         "hour": "17:30 - 19:00",
+        "photo": "",
         "description": ""
     },
     {
@@ -21,6 +23,7 @@
         "place": "Sala 210",
         "day": "Viernes",
         "hour": "17:30 - 19:00",
+        "photo": "",
         "description": ""
     }
 ]
