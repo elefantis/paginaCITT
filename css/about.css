@@ -1,4 +1,6 @@
-.general-container {}
+.general-container {
+    min-height: 85vh;
+align-items:center;}
 
 .info-citt {
     margin-top: 2em;
