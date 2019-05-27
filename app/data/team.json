@@ -1,80 +1,92 @@
 [
     {
-        "nombre": "Nelson Alvarez",
-        "imagen": "/img/Equipo/Director.jpg",
-        "cargo": "Director"
+        "name": "Nelson Alvarez",
+        "image": "/img/Equipo/Director.jpg",
+        "position": "Director de carrera",
+        "idPosition": 0
     },
     {
-        "nombre": "Jean Paul Fuentes",
-        "imagen": "/img/Equipo/Coordinador.png",
-        "cargo": "Coordinador"
+        "name": "Jean Paul Fuentes",
+        "image": "/img/Equipo/Coordinador.png",
+        "position": "Coordinador Citt",
+        "idPosition": 1
     },
     {
-
+        "name": "Ignacio Donoso",
+        "image": "/img/Equipo/CapitanIgnacio.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Ignacio Donoso",
-        "imagen": "/img/Equipo/CapitanIgnacio.jpg",
-        "cargo": "Capitan"
+        "name": "Bastian",
+        "image": "/img/Equipo/CapitanBastian.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Bastian",
-        "imagen": "/img/Equipo/CapitanBastian.jpg",
-        "cargo": "Capitan"
+        "name": "Anais",
+        "image": "/img/Equipo/CapitanAnais.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Anais",
-        "imagen": "/img/Equipo/CapitanAnais.jpg",
-        "cargo": "Capitan"
+        "name": "Maximiliano López",
+        "image": "/img/Equipo/CapitanMax.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Maximiliano López",
-        "imagen": "/img/Equipo/CapitanMax.jpg",
-        "cargo": "Capitan"
+        "name": "Scarlet Vallejos",
+        "image": "/img/Equipo/CapitanScarlet.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Scarlet Vallejos",
-        "imagen": "/img/Equipo/CapitanScarlet.jpg",
-        "cargo": "Capitan"
+        "name": "Samuel Peña",
+        "image": "/img/Equipo/CapitanSamuel.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Samuel Peña",
-        "imagen": "/img/Equipo/CapitanSamuel.jpg",
-        "cargo": "Capitan"
+        "name": "Jorge Corvalan",
+        "image": "/img/Equipo/CapitanJorge.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Jorge Corvalan",
-        "imagen": "/img/Equipo/CapitanJorge.jpg",
-        "cargo": "Capitan"
+        "name": "Daniela sepulveda",
+        "image": "/img/Equipo/CapitanDaniela.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Daniela sepulveda",
-        "imagen": "/img/Equipo/CapitanDaniela.jpg",
-        "cargo": "Capitan"
+        "name": "Francisco Peñaloza",
+        "image": "/img/Equipo/CapitanFrancisco.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Francisco Peñaloza",
-        "imagen": "/img/Equipo/CapitanFrancisco.jpg",
-        "cargo": "Capitan"
+        "name": "Alvaro Peñaloza",
+        "image": "/img/Equipo/CapitanAlvaro.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Alvaro Peñaloza",
-        "imagen": "/img/Equipo/CapitanAlvaro.jpg",
-        "cargo": "Capitan"
+        "name": "Jonathan Muñoz",
+        "image": "/img/Equipo/CapitanJonathan.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Jonathan Muñoz",
-        "imagen": "/img/Equipo/CapitanJonathan.jpg",
-        "cargo": "Capitan"
+        "name": "Claudia Vasquez",
+        "image": "/img/Equipo/CapitanClaudia.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     },
     {
-        "nombre": "Claudia Vasquez",
-        "imagen": "/img/Equipo/CapitanClaudia.jpg",
-        "cargo": "Capitan"
-    },
-    {
-        "nombre": "Andres Cubillos",
-        "imagen": "/img/Equipo/CapitanAndres.jpg",
-        "cargo": "Capitan"
+        "name": "Andres Cubillos",
+        "image": "/img/Equipo/CapitanAndres.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     }
 ]
