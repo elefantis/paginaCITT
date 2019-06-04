@@ -3,19 +3,19 @@
         "idEvent" : 1,
         "name" : "Inauguración Citt",
         "description": "",
-        "date": "10-03-2019",
+        "date": "10 de Marzo",
         "place": "Maipú",
         "time": "",
-        "image": ""
+        "image": "/img/Events/InauguracionCitt.jpg"
     },
     {
         "idEvent" : 2,
         "name" : "Hackathon Duoc UC Sede Maipú",
         "description": "",
-        "date": "21-06-2019",
+        "date": "21 y 22 de Junio",
         "place": "Maipú",
-        "time": "",
-        "image": ""
+        "time": "09:00",
+        "image": "/img/Events/Hackathon.jpg"
     },
     {
         "idEvent" : 3,
@@ -24,7 +24,7 @@
         "date": "03-09-2019",
         "place": "Puente alto",
         "time": "",
-        "image": ""
+        "image": "/img/Events/ExpoProyectos.jpg"
     },
     {
         "idEvent" : 4,
@@ -42,7 +42,7 @@
         "date": "08-10-2019",
         "place": "Plaza Oeste",
         "time": "",
-        "image": ""
+        "image": "/img/Events/CampeonatoLego.jpg"
     },
     {
         "idEvent" : 6,
@@ -51,6 +51,6 @@
         "date": "08-11-2019",
         "place": "Melipilla",
         "time": "",
-        "image": ""
+        "image": "/img/Events/EncuentroCitt.jpg"
     }
 ]

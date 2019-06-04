@@ -6,7 +6,7 @@
         "day": "Miércoles",
         "hour": "17:30 - 19:00",
         "photo": "",
-        "description": ""
+        "description": "Taller orientado al diseño y programación de paginas web responsivas y su implementación en celulares."
     },
     {
         "id": 1,
@@ -15,7 +15,7 @@
         "day": "Jueves",
         "hour": "17:30 - 19:00",
         "photo": "",
-        "description": ""
+        "description": "Taller orientado al diseño y maquetación de un videojuego mediante un motor establecido."
     },
     {
         "id": 1,
@@ -24,6 +24,6 @@
         "day": "Viernes",
         "hour": "17:30 - 19:00",
         "photo": "",
-        "description": ""
+        "description": "Taller orientado al diseño y maquetación de un videojuego mediante un lenguaje de programación."
     }
 ]
