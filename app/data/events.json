@@ -2,8 +2,8 @@
     {
         "idEvent" : 1,
         "name" : "Inauguración Citt",
-        "description": "",
-        "date": "10 de Marzo",
+        "description": "Lanzamiento oficial del Centro de innovación y Transferencia Tecnologica (Citt), Dando paso a un nuevo inicio de la jornada CITT, el cual tiene como objetivo de dar a conocer ¿que es el citt?, ¿quienes lo conforman?, algunos de sus respectivos proyectos y generar un espacio abierto en donde los alumnos puedan enriquezer la industria, desarrollar de mejor forma sus habilidades  y formar parte para realizar sus respectivos proyectos ",
+        "date": " 10 de Marzo",
         "place": "Maipú",
         "time": "",
         "image": "/img/Events/InauguracionCitt.jpg"
@@ -11,8 +11,8 @@
     {
         "idEvent" : 2,
         "name" : "Hackathon Duoc UC Sede Maipú",
-        "description": "",
-        "date": "21 y 22 de Junio",
+        "description": "Evento cuyo objetivo Principal es potenciar las competencias de empleabilidad en los estudiantes frente a desafios otorgados por compañias de la industria dentro de un tiempo de 24 horas en los cuales un determinado grupo de alumnos presentaran sus respectivos proyectos mediante una presentación de 2 minutos como maximo a los jueces de la propia industria",
+        "date": " 21 y 22 de Junio",
         "place": "Maipú",
         "time": "09:00",
         "image": "/img/Events/Hackathon.jpg"
@@ -20,8 +20,8 @@
     {
         "idEvent" : 3,
         "name" : "Expo proyectos",
-        "description": "",
-        "date": "03-09-2019",
+        "description": "Feria en donde los Centros de innovación y Transferencia Tecnologica de todas las sedes de Duoc se reunen para exponer frente a un jurado, los proyectos realizados a lo largo de la jornada Citt mediante la modalidad de Elevator Pitch",
+        "date": " 03-09-2019",
         "place": "Puente alto",
         "time": "",
         "image": "/img/Events/ExpoProyectos.jpg"
@@ -29,8 +29,8 @@
     {
         "idEvent" : 4,
         "name" : "Encuentro videojuegos",
-        "description": "",
-        "date": "04-10-2019",
+        "description": "Competencia Enfocada Principalmente al desarrollo del area de video juegos, en la cual los Centro de innovación de todas sus respectivas sedes se reunen a exponer y compartir sus mejores video juegos desarrollados  ",
+        "date": " 04-10-2019",
         "place": "San bernardo",
         "time": "",
         "image": ""
@@ -38,8 +38,8 @@
     {
         "idEvent" : 5,
         "name" : "Campeonato LEGO",
-        "description": "",
-        "date": "08-10-2019",
+        "description": "Competencia dedicada a las batallas de robo-legos en los cuales cada centro de innovación debe elaborar un robo-lego el cual debe ser armado dentro de la jornada Citt, este se dispondrá al combate frente a otros robo-legos de otros centros de innovación dependiendo de la modalidad del combate establecido dentro del reglamento",
+        "date": " 08-10-2019",
         "place": "Plaza Oeste",
         "time": "",
         "image": "/img/Events/CampeonatoLego.jpg"
@@ -47,8 +47,8 @@
     {
         "idEvent" : 6,
         "name" : "Encuentro Citt",
-        "description": "",
-        "date": "08-11-2019",
+        "description": "Evento dedicado a exponer el reconocido 'Proyecto Estrella' y la gran parte de proyectos por parte de cada Centro de innovación. El proyecto estrella consta sobre cierta problematica basada en una cierta tematica (ej: Area De Negocios, Ecologia medioambiental, etc), el proyecto estrella es presentado frente a empresas de la industria mediante un elevator pitch de no más de 2 minutos por parte de los integrantes que elaboraron dicho proyecto ",
+        "date": " 08-11-2019",
         "place": "Melipilla",
         "time": "",
         "image": "/img/Events/EncuentroCitt.jpg"
