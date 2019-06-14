@@ -1,16 +1,17 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "name": "Inauguración del CITT",
-        "data": "lorem ipsum",
-        "video": "",
+        "data": "El día Miércoles 10 de abril se llevó a cabo el inicio de la jornada Citt en donde todo su equipo en conjunto de su coordinador Jean Paul Fuentes, abre sus puertas para compartir diferentes experiencias entre los alumnos de Educación Superior, invitándolos de esa manera a nuevas experiencias y a nuevos desafíos que se incorporarán a lo largo de la jornada. Sin falta de mencionar la gran charla de Ciber-Seguridad Elaborada por (inserte el nombre). ",
+        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8y3AhVjlSVY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "image": ""
     },
     {
-        "id": 2,
-        "name": "Hackathon Duoc UC Sede Maipú",
-        "data": "Por tercer año consecutivo se realizara la hackathon donde chicos de todas las carreras formaran equipos para cumplir con un objetivo en común.",
+        "id": 1,
+        "name": "Anuncio Hackathon",
+        "data": "Se viene la gran Actividad que convoca a estudiantes de educación media y superior, para trabajar en equipo en el desarrollo de un software como solución frente a una problemática planteada por la industria. La duración de la Actividad tiene un tiempo de 27 horas continuas. A través de esta Actividad los estudiantes fortalecen sus competencias de empleabilidad y su experiencia en la industria.",
         "video": "",
-        "image": ""
+        "image": "/img/Events/Hackathon.jpg"
     }
+    
 ]

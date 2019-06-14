@@ -1,66 +1,65 @@
 function TeamController() {
-    // Llama.get('../app/data/team.json').then( ( data ) => {
-    //     let container = document.getElementById('general-container');
-    //     container.innerHTML = '';
+   Llama.get('../app/data/team.json').then( ( data ) => {
+    let container = document.getElementById('general-container-team');
+    //Contenedores
+    let directorContainer = document.createElement('div');
+    let coordinadorContainer = document.createElement('div');
+    let capitanContainer = document.createElement('div');
 
-    //     //0 = Director, 1 = coordinardor, 2 = capitan
-    //     let directores = [];
-    //     let coordinadores = [];
-    //     let capitanes = [];
-    //     let directoresInsert = '';
-    //     let coordinadoresInsert = '';
-    //     let capitanInsert = '';
+    //Contenido contenedores
+    directorContainer.innerHTML = ` <div class="title-team">
+                                        <h1>Director de carrera</h1>
+                                    </div>`;
+    coordinadorContainer.innerHTML = `  <div class="title-team">
+                                            <h1>Coordinador CITT</h1>
+                                        </div>`;
+    capitanContainer.innerHTML = `  <div class="title-team">
+                                        <h1>Capitanes CITT</h1>
+                                    </div>`;
 
-    //     data.forEach( d => {
-    //         switch (d.idPosition) {
-    //             case 0:
-    //                 directores.push(`
-    //                     <div class="img-team-container">
-    //                         <div class="img-team">
-    //                             <img src="${d.image}" alt="${d.name}">
-    //                         </div>
-    //                         <h2>${d.name}</h2>
-    //                     </div>
-    //                     `);
-    //                 break;
-    //             case 1:
-    //                 coordinadores.push(`
-    //                 <div class="img-team-container">
-    //                     <div class="img-team">
-    //                         <img src="${d.image}" alt="${d.name}">
-    //                     </div>
-    //                     <h2>${d.name}</h2>
-    //                 </div>
-    //                 `);
-    //                 break;
-    //             case 2:
-    //                 capitanes.push(`
-    //                 <div class="img-team-container">
-    //                     <div class="img-team">
-    //                         <img src="${d.image}" alt="${d.name}">
-    //                     </div>
-    //                     <h2>${d.name}</h2>
-    //                 </div>
-    //                 `);
-    //                 break;
-            
-    //             default:
-    //                 break;
-    //         }
-    //     });
+    //Atributos contenedores
+    directorContainer.className = 'container-images';
+    coordinadorContainer.className = 'container-images';
+    capitanContainer.className = 'container-images';
 
-    //     directores.forEach( d => {
-    //         directores
-    //     });
-    //     coordinadores.forEach( c => {
-
-    //     });
-    //     capitanes.forEach( c => {
-
-    //     });
-
-    // }).catch( ( error ) => 
-    // {
-    //     console.log( error );
-    // });
+    data.forEach( c => {
+        let member = '';
+        switch (c.position) {
+            case 'Director de carrera':
+                member = `<div class="img-team-container">
+                            <div class="img-team">
+                                <img src="${c.image}" alt="Imagen Director">
+                            </div>
+                            <h2>${c.name}</h2>
+                        </div>`;
+                directorContainer.innerHTML += member;
+                break;
+            case 'Coordinador Citt':
+                member = ` <div class="img-team-container">
+                                <div class="img-team">
+                                    <img src="${c.image}" alt="Imagen Coordinador">
+                                </div>
+                                <h2>${c.name}</h2>
+                            </div>`;
+                coordinadorContainer.innerHTML += member;
+                break;
+            case 'Capitan':
+                member = `<div class="img-team-container">
+                            <div class="img-team">
+                                <img src="${c.image}" alt="Imagen alumno">
+                            </div>
+                            <h2> ${c.name} </h2>
+                        </div>`;
+                capitanContainer.innerHTML += member;
+                break;
+            default:
+                break;
+        }
+    });
+    container.appendChild(directorContainer);
+    container.appendChild(coordinadorContainer);
+    container.appendChild(capitanContainer);
+}).catch( ( error ) => {
+       console.log( error );
+   });
 };
