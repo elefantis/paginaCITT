@@ -16,7 +16,7 @@ function EventsController() {
                 </a>
                 <div class="info-event">
                     <p>${e.description}</p>
-                    <p>La fecha es${e.date} a las ${e.time}</p>
+                    <p>La fecha es ${e.date} a las ${e.time}</p>
                     <p></p>
                 </div>
             </div>
