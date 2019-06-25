@@ -1,7 +1,6 @@
 function SubjectsController () {
     Llama.get('../app/data/subject.json').then( ( data ) => {
         let container = document.getElementById('general-container');
-        container.innerHTML = '';
         data.forEach( d => {
             container.innerHTML += 
             ` <div class="flip-card-container">

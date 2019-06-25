@@ -1,7 +1,6 @@
 function GalleryController() {
     Llama.get('../app/data/gallery.json').then( ( data ) => {
         let container = document.getElementById('general-container');
-        container.innerHTML = '';
         data.forEach( d => {
             let showImages = '';
             d.images.forEach( imageSrc => {
