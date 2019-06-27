@@ -16,7 +16,18 @@ img {
 
     max-width: 100%;
 }
-
+footer{
+    align-self: flex-end;
+    width: 100%;
+    height: 50px;
+    background: black;
+    color: white;
+    display: flex;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+footer p {
+    padding: 10px;
+}
 button {
     min-height: 48px;
     min-width: 48px;
@@ -26,7 +37,7 @@ button {
     align-items: center;
     justify-content: center;
     min-height: 93vh;
-    margin-top: 7vh;
+    margin-top: 7.5vh;
 /*    7.5 Es igual a 50px que es el height del menu*/
 
 }

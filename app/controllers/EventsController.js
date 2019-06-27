@@ -4,23 +4,24 @@ function EventsController() {
         console.log(data);
         data.forEach( e => {
             console.log(e.image);
-            container.innerHTML += 
-            `
-            <div class="event-container">
-                <div class="info-event">
-                    <h2>${e.name}</h2>
-                    <span id="decorator-title"></span>
-                </div>
-                <a data-lightbox="item-img-2" class="img-event" href="${e.image}">
-                    <img src="${e.image}" alt="${e.name}">
-                </a>
-                <div class="info-event">
-                    <p>${e.description}</p>
-                    <p>La fecha es ${e.date} a las ${e.time}</p>
-                    <p></p>
-                </div>
+            container.innerHTML +=`
+            <div class="container-event">
+            <div class="container-info">
+             <h2>${e.name}</h2>
+              <p>${e.description} </p>
+                <h4>La fecha es ${e.date} a las ${e.time}</h4>
             </div>
+            <div class="container-info">
+                <div class="img-event">
+                <img src="${e.image}" alt="${e.name}">
+                </div>
+              
+            </div>
+            
+            
+        </div>
             `;
+           
         });
     });
 };
