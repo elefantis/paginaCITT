@@ -42,3 +42,18 @@ function FeedController() {
     });
     
 };
+// <div class="container-event">
+// <div class="container-info">
+//  <h2>tITULO XD</h2>
+//   <p> AQUI INSERTA DESCRIPCION  </p>
+//     <h4></h4>
+// </div>
+// <div class="container-info">
+//        <div class="img-event">
+//          <img src="./Hackathon.jpg"alt="">  
+//        </div>
+        
+// </div>
+//PD: CACHE Q TIENES EL PROBLEMA Q SI TIENE VIDEOS O IMG
+//HACE UN IF SI EXISTEN IMG ANTES DEL += EN EL IF INSERTAS LOS CON IMG Y EN EL ELSE LOS CON VIDEOS 
+//NOSE SI FUNQUE xd
