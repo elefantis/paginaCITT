@@ -1,17 +1,38 @@
 [
     {
-        "id": 0,
+        "id": 1,
         "name": "Inauguración del CITT",
         "data": "El día Miércoles 10 de abril se llevó a cabo el inicio de la jornada Citt en donde todo su equipo en conjunto de su coordinador Jean Paul Fuentes, abre sus puertas para compartir diferentes experiencias entre los alumnos de Educación Superior, invitándolos de esa manera a nuevas experiencias y a nuevos desafíos que se incorporarán a lo largo de la jornada. Sin falta de mencionar la gran charla de Ciber-Seguridad Elaborada por (inserte el nombre). ",
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8y3AhVjlSVY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "image": ""
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "Anuncio Hackathon",
         "data": "Se viene la gran Actividad que convoca a estudiantes de educación media y superior, para trabajar en equipo en el desarrollo de un software como solución frente a una problemática planteada por la industria. La duración de la Actividad tiene un tiempo de 27 horas continuas. A través de esta Actividad los estudiantes fortalecen sus competencias de empleabilidad y su experiencia en la industria.",
         "video": "",
         "image": "/img/Events/Hackathon.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Encuentro capitanes Citt",
+        "data": "Este 6 de junio se celebró una junta entre los capitanes CITT de todas las sedes. En esta jornada se dio la instancia para que los capitanes se conocieran y compartieran anécdotas y fortaleciendo los lasos entre las sedes. También se realizaron charlas para motivar a los alumnos, contando con la presencia de Claudio Alcota y Ariel Matus de Innovar es hoy.",
+        "video": "",
+        "image": "/img/Feed/EncuentroCapitanes.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Término hackathon ",
+        "data": "Este viernes 21 y sábado 22 tuvo lugar el evento anual de Hackathon Maipú 2019. Evento que se realiza por tercer año consecutivo y que invita a los alumnos a solucionar las problemáticas planteadas por las empresas invitadas dentro de 24 horas, motivándolos para que trabajen en equipo y potenciar sus capacidades. Este año se contó con la presencia de AWS y HERE.com y por el área de entretenimiento estuvo MSI y wimpy.cl. No olvidemos también que, en paralelo a esta competencia, se desarrolló el desafío de videojuegos, donde los grupos que son más apasionados a esta área, también tuvieran la oportunidad de competir.",
+        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yL6UNDsoRpc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "name": "Ganadores de la Hackathon Maipú 2019",
+        "data": "Como se comentó en el artículo anterior, el pasado viernes 21 tuvo lugar la Hackathon Maipú 2019. Instancia para que los alumnos utilicen sus capacidades para solucionar problemáticas planteadas por las empresas.  <br> La competencia estuvo increíblemente reñida este año, sin mencionar que, en esta instancia, se incorporó la implementación de metodologías agiles, aumentando de esta manera, la dificultad de la competencia.  <br> Comenzaremos anunciando las sedes ganadoras del encuentro de videojuegos: <br> 1er lugar para Maipú <br> 2do lugar para Plaza norte <br> 3er lugar para Maipú <br> Y ahora damos paso a los ganadores de la competencia principal: <br> 1er lugar para sede San Bernardo, sede Alonso de Ovalle y Maipú <br> 2do lugar para Maipú <br> 3er lugar para Plaza norte <br> Con eso damos concluido esta entrega de Hackathon Maipú 2019 <br>",
+        "video": "",
+        "image": "/img/Feed/FinalHackathon.jpg"
     }
     
 ]

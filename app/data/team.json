@@ -88,5 +88,17 @@
         "image": "/img/Equipo/CapitanClaudia.jpg",
         "position": "Capitan",
         "idPosition": 2
+    },
+    {
+        "name": "Byron Loaiza",
+        "image": "/img/Equipo/CapitanByron.jpg",
+        "position": "Capitan",
+        "idPosition": 2
+    },
+    {
+        "name": "Danixa",
+        "image": "/img/Equipo/NoImagen.jpg",
+        "position": "Capitan",
+        "idPosition": 2
     }
 ]
