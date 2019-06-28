@@ -3,25 +3,27 @@
     {
         "title": "Hackathon 2018",
         "images": [
-            "/img/Gallery/Hackathon 2018/_DSC4474.jpg","/img/Gallery/Hackathon 2018/_DSC4481.jpg",
-            "/img/Gallery/Hackathon 2018/_DSC4495.jpg","/img/Gallery/Hackathon 2018/_DSC4486.jpg"
+            "/img/Gallery/Hackathon 2018/hackathon181.jpg","/img/Gallery/Hackathon 2018/hackathon1810.jpg",
+            "/img/Gallery/Hackathon 2018/hackathon1814.jpg","/img/Gallery/Hackathon 2018/hackathon186.jpg",
+            "/img/Gallery/Hackathon 2018/hackathon187.jpg","/img/Gallery/Hackathon 2018/hackathon189.jpg"
             
         ]
     },
     {
         "title": "Inaguracion Citt 2019",
         "images": [
-            "/img/Gallery/Inaguracion Citt/56226317_722375458160436_599778362642755213_n.jpg",
-            "/img/Gallery/Inaguracion Citt/56213858_273103756912253_4354530901339056213_n.jpg",
-            "/img/Gallery/Inaguracion Citt/53709456_335672373965466_3121150355203446711_n.jpg"
+            "/img/Gallery/Inaguracion Citt/inaguracion119.jpg",
+            "/img/Gallery/Inaguracion Citt/inaguracion219.jpg",
+            "/img/Gallery/Inaguracion Citt/inaguracion319.jpg"
 
         ]
     },
     {
         "title": "Hackathon EY",
         "images": [
-            "/img/Gallery/Hackathon EY/81037893-eef2-4e3d-8cd6-7b92f454586d.jpg","/img/Gallery/Hackathon EY/0c1366d2-7a53-451e-9672-11ebb90fa9ca.jpg",
-            "/img/Gallery/Hackathon EY/3db19bc8-1a68-43a9-ba13-e21f81a7dd4f.jpg"
+            "/img/Gallery/Hackathon EY/ey1.jpg",
+            "/img/Gallery/Hackathon EY/ey2.jpg",
+            "/img/Gallery/Hackathon EY/ey3.jpg"
 
 
         ]
@@ -29,16 +31,24 @@
     {
         "title": "Encuentro Capitanes 2019",
         "images": [
-            "/img/Gallery/Encuentro Capitanes/EncuentroCapitanes.jpg","/img/Gallery/Encuentro Capitanes/EncuentroCapitanes1.jpg"
+            "/img/Gallery/Encuentro Capitanes/encuentrocapitanes.jpg",
+            "/img/Gallery/Encuentro Capitanes/encuentrocapitanes1.jpg",
+            "/img/Gallery/Encuentro Capitanes/encuentrocapitanes2.jpg",
+            "img/Gallery/Encuentro Capitanes/encuentrocapitanes3.jpg",
+            "img/Gallery/Encuentro Capitanes/encuentrocapitanes4.jpg",
+            "img/Gallery/Encuentro Capitanes/encuentrocapitanes5.jpg"
 
         ]
     },
     {
         "title": "Hackathon 2019",
         "images": [
-            "/img/Gallery/Hackathon 2019/FinalHackathon.jpg","/img/Gallery/Hackathon 2019/3c95fd75-8eca-414c-b589-1745d24a28d2.jpg",
-            "/img/Gallery/Hackathon 2019/88ca755f-baeb-4176-bc45-398d8b90b622.jpg","/img/Gallery/Hackathon 2019/485bc6ef-b080-454c-a67c-625a3bd26537.jpg",
-            "/img/Gallery/Hackathon 2019/954f3492-4e11-40be-9473-16155a00cd71.jpg","/img/Gallery/Hackathon 2019/e8849ca8-4c97-4041-a44d-05a8aafacaa3.jpg"
+            "/img/Gallery/Hackathon 2019/hackathon191.jpg",
+            "/img/Gallery/Hackathon 2019/hackathon192.jpg",
+            "/img/Gallery/Hackathon 2019/hackathon193.jpg",
+            "/img/Gallery/Hackathon 2019/hackathon194.jpg",
+            "/img/Gallery/Hackathon 2019/hackathon195.jpg",
+            "/img/Gallery/Hackathon 2019/hackathon196.jpg"
 
         ]
     }
